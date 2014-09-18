@@ -29,7 +29,7 @@ module Iterator {
          * コンストラクタ
          */
         constructor() {
-            this.teacher = new MyTeacher();
+            this.teacher = new MyTeacher('田中');
         }
 
         /**
