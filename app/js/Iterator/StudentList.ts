@@ -1,7 +1,6 @@
 /**
  * Created by Tsuyoshi on 2014/09/13.
  */
-
 module Iterator {
     export class StudentList {
         public  students : Student[];
