@@ -22,7 +22,6 @@ module Iterator {
          * Iteratorパターンの処理開始ポイント
          */
         static run() {
-            console.log('Main::run 1');
             new Main().start();
         }
 
@@ -42,8 +41,3 @@ module Iterator {
         }
     }
 }
-
-window.addEventListener("load", function onload() {
-    window.removeEventListener("load", onload);
-    Iterator.Main.run();
-});
