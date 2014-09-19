@@ -3,6 +3,7 @@
  */
 /// <reference path="Iterator/Main.ts"/>
 /// <reference path="Adapter/Main.ts"/>
+/// <reference path="TemplateMethod/Main.ts"/>
 
 
 /**
@@ -12,5 +13,6 @@ window.addEventListener("load", function onload() {
     window.removeEventListener("load", onload);
 
     //Iterator.Main.run();
-    Adapter.Main.run();
+    //Adapter.Main.run();
+    TemplateMethod.Main.run();
 });
