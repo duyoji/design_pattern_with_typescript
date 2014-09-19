@@ -38,10 +38,19 @@ module TemplateMethod {
         public print(hanzai: ICuttable): void {}
 
         /**
+         * ICuttableインターフェースを実装したクラスのインスタンスを返す
+         * @returns {TemplateMethod.Wood}
+         */
+        public createCuttable() : ICuttable {
+            console.log("材料は木");
+            return new Wood();
+        }
+
+        /**
          * テンプレート処理を含む処理の流れを記述
          */
         public createWoodCutPrint() : void {
-            var wood : ICuttable = new Wood();
+            var wood : ICuttable = this.createCuttable();
             this.draw(wood);
             this.cut(wood);
             this.print(wood);

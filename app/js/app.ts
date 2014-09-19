@@ -4,6 +4,7 @@
 /// <reference path="Iterator/Main.ts"/>
 /// <reference path="Adapter/Main.ts"/>
 /// <reference path="TemplateMethod/Main.ts"/>
+/// <reference path="FactoryMethod/Main.ts"/>
 
 
 /**
@@ -15,4 +16,5 @@ window.addEventListener("load", function onload() {
     //Iterator.Main.run();
     //Adapter.Main.run();
     TemplateMethod.Main.run();
+    FactoryMethod.Main.run();
 });
