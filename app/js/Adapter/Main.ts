@@ -4,6 +4,7 @@
 
 /// <reference path="NewTaro.ts"/>
 /// <reference path="Interface/IChairperson.ts"/>
+/// <reference path="Hanako.ts"/>
 
 /**
  * Adapterパターン練習用モジュール。<br/>
@@ -23,7 +24,8 @@ module Adapter {
         constructor() {}
 
         public start() : void {
-            var chairperson : Interface.IChairperson = new NewTaro();
+            // var chairperson : Interface.IChairperson = new NewTaro();
+            var chairperson: Interface.IChairperson = new Hanako();
             chairperson.organizeClass();
         }
     }
