@@ -4,7 +4,14 @@
 
 /// <reference path="IIterator.ts"/>
 
+/**
+ * Iteratorのinterfaceを格納する
+ */
 module Iterator.Interface {
+
+    /**
+     * イテレータのアグリゲータ
+     */
     export interface IAggregate {
         /**
          * IIteratorオブジェクトを返す
