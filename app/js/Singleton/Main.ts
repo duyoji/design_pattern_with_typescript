@@ -13,7 +13,7 @@ module Singleton {
     export class Main {
 
         /**
-         * TemplateMethodパターンのエントリポイント
+         * Singletonパターンのエントリポイント
          */
         static run() {
             new Main().start();
