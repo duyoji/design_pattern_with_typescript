@@ -7,6 +7,8 @@
 /// <reference path="FactoryMethod/Main.ts"/>
 /// <reference path="Singleton/Main.ts"/>
 /// <reference path="Prototype/Main.ts"/>
+/// <reference path="Builder/Main.ts"/>
+/// <reference path="Strategy/Main.ts"/>
 
 
 /**
@@ -20,5 +22,7 @@ window.addEventListener("load", function onload() {
     //TemplateMethod.Main.run();
     //FactoryMethod.Main.run();
     //Singleton.Main.run();
-    Prototype.Main.run();
+    //Prototype.Main.run();
+    //Builder.Main.run();
+    Strategy.Main.run();
 });
