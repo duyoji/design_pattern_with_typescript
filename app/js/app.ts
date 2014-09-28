@@ -11,6 +11,10 @@
 /// <reference path="Strategy/Main.ts"/>
 
 
+/// <reference path="../../typings/tsd.d.ts"/>
+
+
+
 /**
  * 起動スクリプト
  */
@@ -25,4 +29,8 @@ window.addEventListener("load", function onload() {
     //Prototype.Main.run();
     //Builder.Main.run();
     Strategy.Main.run();
+
+    Promise.all([Promise.resolve(111), Promise.resolve(222)]).then((results)=> {
+        console.log(results);
+    })
 });

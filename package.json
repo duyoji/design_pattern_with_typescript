@@ -5,6 +5,7 @@
   "private": true,
   "author": "John Doe",
   "devDependencies": {
+    "es6-promise": "^1.0.0",
     "grunt": "^0.4.5",
     "grunt-typedoc": "^0.2.1",
     "grunt-typescript": "^0.3.8",
