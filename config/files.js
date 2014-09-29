@@ -25,6 +25,7 @@ module.exports = function(lineman) {
               "node_modules/jquery/dist/jquery.min.js",
               "node_modules/lodash/dist/lodash.min.js",
               "node_modules/backbone/backbone-min.js",
+              "node_modules/backbone.localstorage/backbone.localstorage-min.js",
               "node_modules/backbone.marionette/node_modules/backbone.wreqr/lib/backbone.wreqr.js",
               "node_modules/backbone.marionette/node_modules/backbone.babysitter/lib/backbone.babysitter.js",
               "node_modules/backbone.marionette/lib/backbone.marionette.js",
