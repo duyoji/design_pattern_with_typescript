@@ -19,5 +19,18 @@ module.exports = function(lineman) {
     //   ]
     // }
 
+      js: {
+          vendor: [
+              //"vendor/js/**/*.js",
+              "node_modules/jquery/dist/jquery.min.js",
+              "node_modules/lodash/dist/lodash.min.js",
+              "node_modules/backbone/backbone-min.js",
+              "node_modules/backbone.marionette/node_modules/backbone.wreqr/lib/backbone.wreqr.js",
+              "node_modules/backbone.marionette/node_modules/backbone.babysitter/lib/backbone.babysitter.js",
+              "node_modules/backbone.marionette/lib/backbone.marionette.js",
+              "node_modules/es6-promise/dist/promise-1.0.0.min.js"
+          ]
+      }
+
   };
 };
